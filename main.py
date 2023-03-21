@@ -4,7 +4,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def generate_caption(image_url):
